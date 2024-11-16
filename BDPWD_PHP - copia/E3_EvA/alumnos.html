@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tablas.css">
+    <title>Alumnos</title>
+</head>
+<body>
+    <center>
+        <h1>Tabla alumnos</h1>
+        <form action ="alumnos_insertar.php" method="post">
+
+            <table border="1" solid blue>
+                    <tr>
+                        <td>Identificación: </td>
+                        <td><input type="text" name="id_alumno"/></td>
+                    </tr>
+                    <tr>
+                        <td>Nombre: </td>
+                        <td><input type="text" name="nom_alumno"/></td>
+                    </tr>
+                    <tr>
+                        <td>Turno: </td>
+                        <td><input type="text" name="turno"/></td>
+                    </tr>
+                    <tr>
+                        <td>Tipo de Colegiatura: </td>
+                        <td><input type="text" name="tipo_colegiatura"/></td>
+                    </tr>
+                <tr><td colspan="2"><input type="submit" value="Grabar"/></td></tr>
+            </table>
+        </form>
+        <br><br>
+        <input type="button" value="Regresar" onclick="location.href='_inicio.html'"/>
+        <br><br>
+        <input type="button" value="Borrar" onclick="location.href='alumnos_frame.html'"/>
+    </center>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(76, 76, 76);
+}
+
+h1{
+    color: white;
+}
+
+table{
+    background-color: rgb(230, 206, 150);
+    border-radius: 5px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tablas.css">
+    <title>Colegiaturas</title>
+</head>
+<body>
+    <center>
+        <h1>Tabla colegiaturas</h1>
+        <form action ="colegiaturas_insertar.php" method="post">
+
+            <table border="1" solid blue>
+                    <tr>
+                        <td>Tipo de colegiatura: </td>
+                        <td><input type="text" name="tipo_colegiatura"/></td>
+                    </tr>
+                    <tr>
+                        <td>Precio: </td>
+                        <td><input type="text" name="precio_colegiatura"/></td>
+                    </tr>
+                    <tr>
+                        <td>Paquete de libros: </td>
+                        <td><input type="text" name="paquete_libros"/></td>
+                    </tr>
+                    <tr>
+                        <td>Infraestructura: </td>
+                        <td><input type="text" name="infrestructura"/></td>
+                    </tr>
+                <tr><td colspan="2"><input type="submit" value="Grabar"/></td></tr>
+            </table>
+        </form>
+        <br><br>
+        <input type="button" value="Regresar" onclick="location.href='_inicio.html'"/>
+        <br><br>
+        <input type="button" value="Borrar" onclick="location.href='colegiaturas_frame.html'"/>
+    </center>
+</body>
+</html>

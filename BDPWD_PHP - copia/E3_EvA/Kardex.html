@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tablas.css">
+    <title>Kardex</title>
+</head>
+<body>
+    <center>
+        <h1>Tabla Kardex</h1>
+        <form action ="Kardex_insertar.php" method="post">
+
+            <table border="1" solid blue>
+                    <tr>
+                        <td>ID del alumno: </td>
+                        <td><input type="text" name="id_alumno"/></td>
+                    </tr>
+                    <tr>
+                        <td>Primera materia: </td>
+                        <td><input type="text" name="materia_1"/></td>
+                    </tr>
+                    <tr>
+                        <td>Segunda materia: </td>
+                        <td><input type="text" name="materia_2"/></td>
+                    </tr>
+                    <tr>
+                        <td>Tercera materia: </td>
+                        <td><input type="text" name="materia_3"/></td>
+                    </tr>
+                <tr><td colspan="2"><input type="submit" value="Grabar"/></td></tr>
+            </table>
+        </form>
+        <br><br>
+        <input type="button" value="Regresar" onclick="location.href='_inicio.html'"/>
+        <br><br>
+        <input type="button" value="Borrar" onclick="location.href='Kardex_frame.html'"/>
+    </center>
+</body>
+</html>

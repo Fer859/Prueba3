@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrar alumnos</title>
+</head>
+<body>
+    <h1>Borrar alumnos</h1>
+    <form action="alumnos_borrar.php" method="post">
+    <table>
+        <tr>
+            <td>Identificación: </td>
+            <td><input type="text" name="id_alumno"></td>
+        </tr>
+        <tr>
+            <td>Nombre: </td>
+            <td><input type="text" name="nom_alumno"></td>
+        </tr>
+        <tr>
+            <td>Turno: </td>
+            <td><input type="text" name="turno"></td>
+        </tr>
+        <tr>
+            <td>Tipo de Colegiatura: </td>
+            <td><input type="text" name="tipo_colegiatura"></td>
+        </tr>
+    </table>
+    <input type="submit" value="Borrar">
+    </form>
+</body>
+</html>
